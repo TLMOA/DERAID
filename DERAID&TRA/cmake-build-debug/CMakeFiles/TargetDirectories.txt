@@ -1,0 +1,3 @@
+D:/clion/DERAID&TRA/cmake-build-debug/CMakeFiles/DERAID_TRA.dir
+D:/clion/DERAID&TRA/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/clion/DERAID&TRA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
