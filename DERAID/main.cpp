@@ -521,9 +521,9 @@ unsigned long long a2[512][5]={
 
 };
 
+unsigned long long m;
+readfrom_tee(){}
 
-
-unsigned long long m=252;
 
 void DERAID5(unsigned long long n){
     unsigned long long i,j;
@@ -632,53 +632,53 @@ int main() {
 
 
 
-    auto start22 = chrono::high_resolution_clock::now(); // ¿ªÊ¼Ê±¼ä
+    auto start22 = chrono::high_resolution_clock::now(); // å¼€å§‹æ—¶é—´
 
     DERAID51(5);
 
-    auto end22 = chrono::high_resolution_clock::now(); // ½áÊøÊ±¼ä
+    auto end22 = chrono::high_resolution_clock::now(); // ç»“æŸæ—¶é—´
 
-    chrono::duration<double, milli> elapsed22 = end22 - start22; // ¼ÆËã¾­¹ıµÄÊ±¼ä
+    chrono::duration<double, milli> elapsed22 = end22 - start22; // è®¡ç®—ç»è¿‡çš„æ—¶é—´
 
 
-    cout<<"½âÂë¹ı³Ì******************************************"<<endl;
+    cout<<"è§£ç è¿‡ç¨‹******************************************"<<endl;
 
     cout << "DERAID51 " << elapsed22.count() << " milliseconds." << endl;
 
 
-    cout<<"¸üĞÂ¹ı³Ì******************************************"<<endl;
+    cout<<"æ›´æ–°è¿‡ç¨‹******************************************"<<endl;
 
 
 
-    auto start222 = chrono::high_resolution_clock::now(); // ¿ªÊ¼Ê±¼ä
+    auto start222 = chrono::high_resolution_clock::now(); // å¼€å§‹æ—¶é—´
 
     DERAID52(5,3,222);
 
-    auto end222 = chrono::high_resolution_clock::now(); // ½áÊøÊ±¼ä
+    auto end222 = chrono::high_resolution_clock::now(); // ç»“æŸæ—¶é—´
 
-    chrono::duration<double, milli> elapsed222 = end222 - start222; // ¼ÆËã¾­¹ıµÄÊ±¼ä
+    chrono::duration<double, milli> elapsed222 = end222 - start222; // è®¡ç®—ç»è¿‡çš„æ—¶é—´
 
     cout << "DERAID52 " << elapsed222.count() << " milliseconds." << endl;
 
 
 
 
-    cout<<"ÖØ½¨¹ı³Ì******************************************"<<endl;
+    cout<<"é‡å»ºè¿‡ç¨‹******************************************"<<endl;
 
 
-    auto start2222 = chrono::high_resolution_clock::now(); // ¿ªÊ¼Ê±¼ä
+    auto start2222 = chrono::high_resolution_clock::now(); // å¼€å§‹æ—¶é—´
 
     DERAID53(5,1);
 
-    auto end2222 = chrono::high_resolution_clock::now(); // ½áÊøÊ±¼ä
+    auto end2222 = chrono::high_resolution_clock::now(); // ç»“æŸæ—¶é—´
 
-    chrono::duration<double, milli> elapsed2222 = end2222 - start2222; // ¼ÆËã¾­¹ıµÄÊ±¼ä
+    chrono::duration<double, milli> elapsed2222 = end2222 - start2222; // è®¡ç®—ç»è¿‡çš„æ—¶é—´
 
     cout << "DERAID53 " << elapsed2222.count() << " milliseconds." << endl;
 
 
 
-    cout << "±àÂë¡¢½âÂë¡¢¸üĞÂ¡¢ÖØ½¨£º" << endl  ;
+    cout << "ç¼–ç ã€è§£ç ã€æ›´æ–°ã€é‡å»ºï¼š" << endl  ;
     cout << elapsed2.count() << endl  ;
 
     cout << elapsed22.count() << endl  ;
