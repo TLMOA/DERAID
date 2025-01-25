@@ -1,0 +1,3 @@
+D:/clion/qscodeupdate0/cmake-build-debug/CMakeFiles/qscodeupdate0.dir
+D:/clion/qscodeupdate0/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/clion/qscodeupdate0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
